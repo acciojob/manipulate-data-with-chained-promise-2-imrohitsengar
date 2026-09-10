@@ -5,7 +5,7 @@ function manipulateData() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve([1, 2, 3, 4]);
-        }, 0);
+        }, 3000);
     })
     .then((arr) => {
         return new Promise((resolve) => {
